@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ページサイズ */
+#wrapper00{
+     width: 100%;
+     margin: 0 auto;
+}
+
+.wrapper01{
+     width: 960px;
+     margin: 0 auto;
+}
+
+/* 左右の領域 */
+#area{
+	 margin-left: 138px;
+	 margin-right: 110px;
+}
+
+/* ヘッダー */
+header{
+     overflow: hidden;
+	 
+}
+
+p#logo{
+	float: left;
+	width:20%;
+}
+
+ul.header_menu{
+     float: right;
+     font-size: 80%;
+	 width:70%;
+	 line-height: 5.0;
+	 text-align: right;
+}
+.head_li{
+     display: inline;
+     margin-left: 15px;
+}
+
+.head_li:hover{
+	color: red;
+	overflow: hidden;
+    background: #f2f2f2;
+}
+
+a.head_color:hover{
+	color: red;
+}
+
+/* フッター */
+ul.footer00{
+	overflow: hidden;
+	text-align: center;
+}
+
+div.footer01{
+	background-color: #f8f8f8;
+    width: 980px;
+	padding-top: 30px;
+}
+
+.foot_li{
+	 display: inline;
+     margin-left: 20px;
+}
+
+.foot_li:hover{
+	color: blue;
+	overflow: hidden;
+	background: #B2B2B2;
+}
+
+a.foot_color:hover{
+	color:blue;
+}
+
+.copyright{
+	color:gray;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* コンテンツ */
+contents{
+	width: 806px;
+	float: left;
+}
+
+/* 現在サイト */
+.current_page{
+	margin-bottom: 5px;
+}
+
+.current_page_color{
+	color: gray;
+}
+.home_underline{
+	color: red;
+}
+
+.home_underline:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+
+/* サイドメニュー */
+.right{
+	float: right;
+	width: 100px;
+}
+
+.first_menu{
+	margin-top: 10px;
+}
+
+div.black_bar{
+	float: right;
+	width: 100px;
+}
+
+.fixed{
+	position: fixed;
+	top: 10px;
+}
+
+
+
+/* ビデオ写真 */
+#video{
+	height: 320px;
+}
+
+/* 超会社メイン説明 */
+main{
+	color: red;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#story{
+	font-size: 14px;
+	line-height: 1.0;
+	margin-right: 10px;
+}
+
+#strong{
+	font-size: 24px;
+}
+
+#story_large_text{
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 1.2;
+	margin-top:10px;
+}
+
+#story_small_text{
+	font-size: 14px;
+	line-height: 1.2;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+/* MEMBERSHIP, 原動力, ベンチャースピリット */
+.member_image{
+	width: 390px;
+	margin-top: 40px;
+	float: left;
+}
+
+.member_title{
+	color: red;
+	width: 390px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1.2;
+	margin-top: 40px;
+	float: right;
+}
+
+.member_text{
+	width: 390px;
+	font-size: 14px;
+	margin-bottom: 40px;
+	float: right;
+}
+
+.member_detail_image{
+    margin-top: 15px;
+    float: right;
+}
+
+/* Members Voice */
+voice_content{
+	width: 390px;
+	float: left;
+}
+
+.voice_title{
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1.2;
+	margin-top: 40px;
+}
+
+.voice_text{
+	font_size: 14px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.voice_name{
+	color: gray;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	line-height: 1.0;
+}
+
+.voice_initial{
+	color: gray;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.voice_image{
+	width: 390px;
+	margin-top:40px;
+	margin-bottom: 40px;
+	float: right;
+}
+
+/* リンク下線の消去 */
+a{
+text-decoration: none;
+}
+
+/* メンバーズの原動力 */
+li.link_list{
+	width:390px;
+	color: navy;
+	font-size: 14px;
+	line-height: 1.0;
+}
+
+li.link_list:hover{
+	text-decoration: underline;
+}
+
+/* VISION2020 */
+#vision{
+	width: 390px;
+	color: navy;
+	font-size: 14px;
+	float: left
+}
+
+#vision:hover{
+	text-decoration: underline;
+}
+	 
+/* NEXT STORY */
+.next_back{
+    overflow: hidden;
+    background: #f8f8f8;
+	margin-top: 40px;
+	margin-bottom:80px;
+}
+
+.next_image{
+    float: left;
+	margin-right: 25px;
+	width: 390px;
+	
+}
+
+.next_story{
+    color: red;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.next_sendai{
+    font-size: 30px;
+	font-weight: bold;
+    line-height: 1.2;
+	margin-bottom: -10px;
+}
+
+.next_button{
+	margin-right: 20px;
+	float: right;
+}
+
+/* ページトップへ */
+#page_top{
+	color: navy;
+	margin-top: 20px;
+	float: right;
+}
+
+#page_top:hover{
+	text-decoration: underline;
+}
+
+
+/* 画像エフェクト（半透明） */
+.translucent{
+  transition: 0.5s;
+}
+.translucent:hover{
+  opacity: 0.7;
+  transition: 0.5s;
+}
+	
+	
